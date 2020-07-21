@@ -41,21 +41,26 @@
 
  
 /* small mobile :320px. */
-@media (max-width: 479px) {
+@media (max-width: 767px) {
     header.home {
         padding: 35px 0;
     }
     .mobile-menu.mean-container {
         margin-top: -12px;
+    }.mean-container a.meanmenu-reveal {
+        right: 12px !important;
     }
     .single-slider{
         height: 100%;
     }
     .single-slider .mdh{
-        padding: 110px 0;
+        padding: 210px 0;
+    }
+    .single-slider .mddh{
+        padding: 300px 0;
     }
     .single-slider .mmdh{
-        padding: 122px 0;
+        padding: 350px 0;
     }
     .slider-content.first h1 {
         font-size: 60px;
@@ -88,44 +93,6 @@
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
-    header.home {
-        padding: 35px 0;
-    }
-    .mobile-menu.mean-container {
-        margin-top: -10px;
-    }
-    .single-slider{
-        height: 100%;
-    }
-    .single-slider .mdh{
-        padding: 155px 0;
-    }
-    .single-slider .mmdh{
-        padding: 170px 0;
-    }
-    .slider-content.first h1 {
-        font-size: 90px;
-    }
-    .slider-content.first h4 {
-        font-size: 50px;
-    }
-    .slider-content.two h1 {
-        font-size: 90px;
-    }
-    .slider-content.two h4 {
-        font-size: 55px;
-    }
-    .slider-content.sound h1 {
-        font-size: 115px;
-    }
-    .slider-content.sound h4 {
-        font-size: 35px;
-    }
-    .col-my{
-        -webkit-box-flex:0;
-        -ms-flex:0 0 33%;
-        flex:0 0 33%;
-        max-width:33%;
-    }
+    
 
 }
