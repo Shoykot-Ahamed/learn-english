@@ -48,6 +48,9 @@
     .mobile-menu.mean-container {
         margin-top: -12px;
     }
+    .single-slider{
+        height: 100%;
+    }
     .single-slider .mdh{
         padding: 110px 0;
     }
@@ -90,6 +93,9 @@
     }
     .mobile-menu.mean-container {
         margin-top: -10px;
+    }
+    .single-slider{
+        height: 100%;
     }
     .single-slider .mdh{
         padding: 155px 0;
