@@ -1,0 +1,125 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    header.home {
+        padding: 35px 0;
+    }
+    .single-slider.mdh .row{
+        padding: 155px 0;
+    }
+    .slider-content.first h1 {
+        font-size: 85px;
+    }
+    .slider-content.first h4 {
+        font-size: 50px;
+    }
+    .slider-content.two h1 {
+        font-size: 95px;
+    }
+    .slider-content.sound h1 {
+        font-size: 110px;
+        margin-bottom: 15px;
+    }
+    .slider-content.sound h4 {
+        font-size: 50px;
+    }
+    
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 479px) {
+    header.home {
+        padding: 35px 0;
+    }
+    .mobile-menu.mean-container {
+        margin-top: -12px;
+    }
+    .single-slider .mdh{
+        padding: 110px 0;
+    }
+    .single-slider .mmdh{
+        padding: 122px 0;
+    }
+    .slider-content.first h1 {
+        font-size: 60px;
+    }
+    .slider-content.first h4 {
+        font-size: 40px;
+    }
+    .slider-content.two h1 {
+        font-size: 60px;
+    }
+    .slider-content.two h4 {
+        font-size: 40px;
+    }
+    .slider-content.sound h1 {
+        font-size: 70px;
+        margin-bottom: 60px;
+    }
+    .slider-content.sound h4 {
+        font-size: 25px;
+    }
+    .col-my{
+        -webkit-box-flex:0;
+        -ms-flex:0 0 33%;
+        flex:0 0 33%;
+        max-width:33%;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+    header.home {
+        padding: 35px 0;
+    }
+    .mobile-menu.mean-container {
+        margin-top: -10px;
+    }
+    .single-slider .mdh{
+        padding: 155px 0;
+    }
+    .single-slider .mmdh{
+        padding: 170px 0;
+    }
+    .slider-content.first h1 {
+        font-size: 90px;
+    }
+    .slider-content.first h4 {
+        font-size: 50px;
+    }
+    .slider-content.two h1 {
+        font-size: 90px;
+    }
+    .slider-content.two h4 {
+        font-size: 55px;
+    }
+    .slider-content.sound h1 {
+        font-size: 115px;
+    }
+    .slider-content.sound h4 {
+        font-size: 35px;
+    }
+    .col-my{
+        -webkit-box-flex:0;
+        -ms-flex:0 0 33%;
+        flex:0 0 33%;
+        max-width:33%;
+    }
+
+}
