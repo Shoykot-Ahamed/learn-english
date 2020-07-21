@@ -53,14 +53,14 @@
     .single-slider{
         height: 100%;
     }
-    .single-slider .mdh{
-        padding: 215px 0;
+    .mdh{
+        padding: 219px 0;
     }
-    .single-slider .mddh{
-        padding: 230px 0;
+    .mddh{
+        padding: 255px 0;
     }
-    .single-slider .mmdh{
-        padding: 230px 0;
+    .mmdh{
+        padding: 232px 0;
     }
     .slider-content.first h1 {
         font-size: 60px;
