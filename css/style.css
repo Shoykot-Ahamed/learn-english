@@ -280,14 +280,42 @@ header {
 }
 .logo-area.la-2{
 	border: 5px solid #000;
+	box-shadow: 5px 5px 8px #333;
 }
 .logo-area img{
 	width: 100%;
 }
 .main-menu ul li {
     display: inline-block;
-	padding: 11px 0px;
-	padding-left: 40px;
+	margin: 11px 0px;
+	margin-left: 40px;
+	position: relative;
+}
+.main-menu.home ul li::after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+}
+.main-menu.home ul li:hover::after {
+	width: 100%;
+}
+.main-menu ul li::after {
+    position: absolute;
+    content: '';
+    background: #333;
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+}
+.main-menu ul li:hover::after {
+	width: 100%;
 }
 .main-menu ul li a{
 	color: #000;
@@ -298,10 +326,15 @@ header {
 .main-menu.home ul li a{
 	color: #fff;
 }
-.main-menu ul li a:hover{
+.main-menu.home ul li a:hover{
 	font-style: italic;
 	transition: .3s;
 	color: #ccc;
+}
+.main-menu ul li a:hover{
+	font-style: italic;
+	transition: .3s;
+	color: #333;
 }
 .mobile-menu.mean-container {
     width: 100%;
