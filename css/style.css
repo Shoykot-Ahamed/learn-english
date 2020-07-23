@@ -271,7 +271,10 @@ header.home {
     padding: 60px 0;
 }
 header {
-    padding: 25px 0;
+    padding: 15px 0;
+}
+header.pres {
+    border-bottom: 2px solid #000;
 }
 .logo-area{
 	border: 5px solid #fff;
@@ -287,7 +290,7 @@ header {
 }
 .main-menu ul li {
     display: inline-block;
-	margin: 11px 0px;
+	margin: 13px 0px;
 	margin-left: 40px;
 	position: relative;
 }
@@ -326,6 +329,11 @@ header {
 .main-menu.home ul li a{
 	color: #fff;
 }
+.main-menu.home ul li a.active{
+	color: #ccc;
+	font-style: italic;
+	border-bottom: 2px solid #fff;
+}
 .main-menu.home ul li a:hover{
 	font-style: italic;
 	transition: .3s;
@@ -335,6 +343,42 @@ header {
 	font-style: italic;
 	transition: .3s;
 	color: #333;
+}
+
+.main-menu ul li ul.submenu {
+    background: #f6f6f6;
+    position: absolute;
+    left: 0;
+    top: 110% !important;
+    width: 115px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    opacity: 0;
+    padding: 0px 0;
+    visibility: hidden;
+    z-index: 9;
+}
+.main-menu ul li:hover> ul.submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.main-menu ul li ul.submenu li {
+    margin: 0;
+    display: block;
+    border-bottom: 1px solid #0fb0ee;
+    padding: 0;
+}
+.main-menu ul li ul.submenu li a {
+    display: block;
+    color: #555555;
+    padding: 0px 5px;
+	font-weight: 400;
+	font-size: 14px;
+}
+.main-menu ul li ul.submenu li:hover> a {
+    color: #0fb0ee;
 }
 .mobile-menu.mean-container {
     width: 100%;
@@ -459,13 +503,19 @@ header {
 .slider-area .slide-next.slide-arrow.slick-arrow {
 	right: 0;
 }
+.slide-arrow.pres{
+	color: #000000;
+}
+.slide-arrow.pres:hover{
+	color: wheat;
+}
 
 
 
 
 
 
-
+/* Video-area */
 
 .single-video{
 	position: relative;
@@ -489,4 +539,50 @@ header {
 	display: block;
 	font-size: 80%;
 	color: red;
+}
+
+
+/* Presentation-area */
+
+.w-head h1 {
+	font-size: 62px;
+	font-weight: 700;
+}
+.w-head h2 span{
+	font-size: 65px;
+	display: block;
+	font-style: italic;
+	line-height: 50px;
+}
+.download a{
+	font-style: italic;
+	color: #000000;
+	border-bottom: 1px solid #000;
+}
+.download a:hover{
+	color: #ff0000;
+	border-color: #f00;
+}
+#weather table{
+	width: 100%;
+}
+#weather table,#weather th,#weather td {
+	border: 2px solid black;
+}
+#weather th,#weather td {
+	padding: 5px 15px;
+}
+#weather th {
+	font-size: 30px;
+	font-weight: 900;
+}
+#weather th span{
+	font-size: 70%;
+}
+#weather td {
+	font-size: 30px;
+	font-weight: 400;
+}
+#weather td span{
+	font-size: 70%;
 }

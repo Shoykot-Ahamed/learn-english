@@ -36,6 +36,16 @@
     .slider-content.sound h4 {
         font-size: 50px;
     }
+
+    .w-head h1 {
+        font-size: 35px;
+    }
+    #weather th {
+        font-size: 19px;
+    }
+    #weather td {
+        font-size: 18px;
+    }
     
 }
 
