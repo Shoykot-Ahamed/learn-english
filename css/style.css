@@ -477,10 +477,16 @@ header.pres {
 	margin-bottom: 75px;
 	font-family: 'Caveat', cursive;
 }
+.slider-content.sound h1 sup{
+	font-size: 60%;
+}
 .slider-content.sound h4{
 	font-size: 70px;
 	color: #ffffff;
 	font-family: 'Caveat', cursive;
+}
+.slider-content.sound h4 span{
+	margin-left: 12px;
 }
 .slide-arrow {
 	font-size: 50px;
