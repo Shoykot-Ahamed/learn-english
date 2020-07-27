@@ -465,6 +465,16 @@ header.pres {
 	color: #ffffff;
 	font-family: 'Caveat', cursive;
 }
+.slider-content.three h1{
+	font-size: 147px;
+	color: #ffffff;
+	font-family: 'Caveat', cursive;
+}
+.slider-content.three h4{
+	font-size: 60px;
+	color: #ffffff;
+	font-family: 'Caveat', cursive;
+}
 .slider-content.two h1 span{
 	font-size: 70%;
 }
