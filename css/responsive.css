@@ -105,6 +105,9 @@
     .slider-content.three h4{
         font-size: 40px;
     }
+    .slider-content.three h4 br{
+        display: block;
+    }
     .slider-content.three.four h1{
         font-size: 44px;
     }
